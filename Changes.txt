@@ -1,0 +1,6 @@
+Changes for Win32::IE::Mechanize
+
+0.01   2014-12-11
+        - Fixed find_link.t: corrected number of links on test file, fixed find_link test which incorrectly expected FRAME tags to be included in count
+        - Fixed select.t: random failure due to array not being sorted before being compared. Now array is sorted before comparison, test passes.
+        - Old Changes file renamed to Changes_Old
